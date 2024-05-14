@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.LoremIpsumGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/loremipsumgenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Lorem Ipsum Generator is a simple tool for generating lorem ipsum text. It returns the generated text.</Description>
+    <RepositoryUrl>https://github.com/apiverve/loremipsumgenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>lorem ipsum; lorem ipsum generator; lorem ipsum api; lorem ipsum tool; lorem ipsum software; lorem ipsum service; lorem ipsum library; lorem ipsum sdk; lorem ipsum code; lorem ipsum script; lorem ipsum program; lorem ipsum application; lorem ipsum app; lorem ipsum utility; lorem ipsum helper; lorem ipsum helper tool; lorem ipsum helper software; lorem ipsum helper service; lorem ipsum helper library; lorem ipsum helper sdk; lorem ipsum helper code; lorem ipsum helper script; lorem ipsum helper program; lorem ipsum helper application; lorem ipsum helper app; lorem ipsum helper tool; lorem ipsum helper utility; lorem ipsum helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
