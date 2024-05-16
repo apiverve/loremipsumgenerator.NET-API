@@ -83,7 +83,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -97,7 +97,7 @@ if(response.error != null) {
   "data": {
     "words": 150,
     "sentences": 0,
-    "text": "deserunt aliquip duis pariatur nostrud cupidatat esse occaecat ea proident proident nulla labore eiusmod ut qui enim deserunt eu sunt ea ipsum et ullamco consequat ea laboris ea Lorem elit quis magna nulla mollit occaecat adipisicing aliqua reprehenderit nostrud laboris dolor magna sint ullamco Lorem eu commodo amet velit Lorem fugiat sunt Lorem culpa sit tempor laboris consectetur commodo et ipsum velit proident proident nostrud culpa irure consectetur non est minim commodo ullamco pariatur cupidatat exercitation ullamco in elit aliqua quis eiusmod tempor et nisi reprehenderit commodo duis consectetur excepteur occaecat labore ut mollit ipsum quis dolore est mollit mollit eiusmod id aliqua velit consectetur velit aliquip Lorem consequat et ad magna consectetur ad voluptate sunt dolore laboris mollit labore eu veniam non nostrud nostrud qui ex ad et aliquip ullamco ad consequat est velit non sunt ullamco non laborum aute fugiat cillum velit fugiat elit irure velit ex dolore"
+    "text": "qui qui laborum in nisi qui ad dolor in culpa exercitation esse anim sint cupidatat do tempor enim eu consectetur adipisicing anim adipisicing laborum aliqua cupidatat elit cupidatat aliqua proident elit nisi sint irure velit duis laborum dolor eiusmod culpa labore id aliqua officia consequat sunt eu esse magna pariatur commodo occaecat nostrud pariatur magna reprehenderit do adipisicing ea incididunt quis fugiat magna minim incididunt ad aliqua do sit est irure non tempor deserunt sit quis veniam culpa labore exercitation irure mollit excepteur veniam aliqua exercitation ad amet in ullamco ex consequat anim occaecat Lorem aliqua tempor consequat dolore fugiat magna est occaecat excepteur ex fugiat ea eu aliqua cillum nulla velit non nisi ad irure sunt sit do occaecat ad do sit irure excepteur exercitation qui ullamco sit qui deserunt voluptate eiusmod nostrud elit dolor velit exercitation laboris esse est deserunt consectetur est id quis non commodo consectetur eu"
   }
 }
 ```
