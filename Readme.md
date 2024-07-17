@@ -71,8 +71,9 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new loremipsumgeneratorQueryOptions {
-  sentences = 3,
-  words = 150
+  paragraphs = 3,
+  startwithlorem = true,
+  maxlength = 100
 };
 ```
 
@@ -95,9 +96,9 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "words": 150,
-    "sentences": 0,
-    "text": "qui qui laborum in nisi qui ad dolor in culpa exercitation esse anim sint cupidatat do tempor enim eu consectetur adipisicing anim adipisicing laborum aliqua cupidatat elit cupidatat aliqua proident elit nisi sint irure velit duis laborum dolor eiusmod culpa labore id aliqua officia consequat sunt eu esse magna pariatur commodo occaecat nostrud pariatur magna reprehenderit do adipisicing ea incididunt quis fugiat magna minim incididunt ad aliqua do sit est irure non tempor deserunt sit quis veniam culpa labore exercitation irure mollit excepteur veniam aliqua exercitation ad amet in ullamco ex consequat anim occaecat Lorem aliqua tempor consequat dolore fugiat magna est occaecat excepteur ex fugiat ea eu aliqua cillum nulla velit non nisi ad irure sunt sit do occaecat ad do sit irure excepteur exercitation qui ullamco sit qui deserunt voluptate eiusmod nostrud elit dolor velit exercitation laboris esse est deserunt consectetur est id quis non commodo consectetur eu"
+    "words": 72,
+    "sentences": 8,
+    "text": "Lorem ipsum dolor sit amet exercitation ipsum duis duis ex do do ullamco magna. Nisi fugiat eiusmod excepteur veniam amet. Sint sint pariatur anim eu commodo tempor magna dolor duis nisi. Pariatur nisi ex duis aliqua consequat id laborum officia. Dolor consequat qui proident do ex sint eu. Tempor ut consequat anim veniam culpa sunt labore aute. Qui velit consectetur qui quis sit do irure ex culpa. Laboris sunt laboris sint amet."
   }
 }
 ```
