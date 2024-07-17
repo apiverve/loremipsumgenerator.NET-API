@@ -5,8 +5,9 @@ using System.Text;
 namespace APIVerve
 {
     public class loremipsumgeneratorQueryOptions {
-public int sentences { get; set; }
-public int words { get; set; }
+public int paragraphs { get; set; }
+public bool startwithlorem { get; set; }
+public int maxlength { get; set; }
 }
 
 }
