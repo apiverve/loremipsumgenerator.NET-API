@@ -96,9 +96,9 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "words": 108,
-    "sentences": 9,
-    "text": "Lorem ipsum dolor sit amet ex deserunt nisi dolore mollit cillum duis elit adipisicing culpa deserunt elit. Adipisicing dolor minim minim elit in nostrud tempor officia officia non Lorem incididunt quis. Tempor eu excepteur pariatur consequat aliqua ullamco magna incididunt reprehenderit adipisicing irure. Laborum velit est consequat do irure veniam enim laboris occaecat cillum. Reprehenderit tempor adipisicing nostrud enim ex irure officia cupidatat aute velit esse anim. Id aute cillum ullamco adipisicing ipsum dolor pariatur. Et reprehenderit enim id irure eu tempor eiusmod laboris aliqua mollit exercitation ea. Aliqua ut amet Lorem aute. Occaecat laborum veniam eu deserunt ut non ea magna eu laborum consectetur duis ullamco dolor."
+    "words": 93,
+    "sentences": 8,
+    "text": "Lorem ipsum dolor sit amet nisi esse elit ea irure dolor reprehenderit ad. Elit officia officia anim laborum in cupidatat enim dolore esse consectetur nostrud proident. Aute excepteur nisi amet aliqua cillum occaecat laborum ullamco ullamco excepteur velit. Nisi labore anim dolor amet tempor cillum laboris excepteur aliqua est. Irure aliqua culpa ea eu est officia nisi ea sit occaecat. Nostrud dolore deserunt pariatur irure cillum et ea veniam cupidatat nisi do. Dolore reprehenderit proident qui ea consectetur. Mollit consequat reprehenderit adipisicing anim velit incididunt ut pariatur consequat proident incididunt ipsum velit laboris."
   },
   "code": 200
 }
