@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.LoremIpsumGenerator".
-5. Click on the APIVerve.API.LoremIpsumGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.LoremIpsumGenerator package, click Install.
 
 
 ---
@@ -96,9 +96,9 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "words": 93,
-    "sentences": 8,
-    "text": "Lorem ipsum dolor sit amet nisi esse elit ea irure dolor reprehenderit ad. Elit officia officia anim laborum in cupidatat enim dolore esse consectetur nostrud proident. Aute excepteur nisi amet aliqua cillum occaecat laborum ullamco ullamco excepteur velit. Nisi labore anim dolor amet tempor cillum laboris excepteur aliqua est. Irure aliqua culpa ea eu est officia nisi ea sit occaecat. Nostrud dolore deserunt pariatur irure cillum et ea veniam cupidatat nisi do. Dolore reprehenderit proident qui ea consectetur. Mollit consequat reprehenderit adipisicing anim velit incididunt ut pariatur consequat proident incididunt ipsum velit laboris."
+    "words": 62,
+    "sentences": 5,
+    "text": "Lorem ipsum dolor sit amet nulla sint eiusmod ut nulla et reprehenderit quis laborum do. Duis irure consequat ut consequat nisi non velit dolore culpa nulla. Sunt deserunt dolore culpa ex qui non laboris cillum sint labore non amet aliqua reprehenderit. Nisi culpa ea magna ea ex id. Consectetur eiusmod voluptate aliquip eu dolor anim consequat amet non deserunt enim velit incididunt."
   },
   "code": 200
 }
@@ -126,7 +126,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
