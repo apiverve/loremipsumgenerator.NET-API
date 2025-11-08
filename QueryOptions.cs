@@ -5,8 +5,8 @@ using System.Text;
 namespace APIVerve
 {
     public class LoremIpsumGeneratorQueryOptions {
-public integer paragraphs { get; set; }
-public boolean startwithlorem { get; set; }
-public integer maxlength { get; set; }
+public int paragraphs { get; set; }
+public bool startwithlorem { get; set; }
+public int maxlength { get; set; }
 }
 }
